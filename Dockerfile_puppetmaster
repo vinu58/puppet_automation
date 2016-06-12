@@ -1,0 +1,9 @@
+#for puppet master 
+From ubuntu
+RUN apt-get update 
+RUN apt-get install vim -y
+
+RUN apt-get install puppetmaster-passenger -y
+RUN apt-get install puppetmaster -y
+
+
